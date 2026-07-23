@@ -7,7 +7,7 @@ import static gregtech.api.enums.Mods.AdvancedSolarPanel;
 import static gregtech.api.enums.Mods.AkashicTome;
 import static gregtech.api.enums.Mods.Automagy;
 import static gregtech.api.enums.Mods.Avaritia;
-import static gregtech.api.enums.Mods.Backpack;
+import static gregtech.api.enums.Mods.Backpack;Minecraft Forge MDK
 import static gregtech.api.enums.Mods.BetterBuildersWands;
 import static gregtech.api.enums.Mods.BinnieCore;
 import static gregtech.api.enums.Mods.BiomesOPlenty;
@@ -3095,6 +3095,11 @@ public class RecipeRemover {
                         getModItem(EnderZoo.ID, "enderFragment", 1, 0),
                         getModItem(EnderZoo.ID, "enderFragment", 1, 0) },
                 new Object[] { null, getModItem(EnderZoo.ID, "enderFragment", 1, 0), null });
+        removeRecipeShapedDelayed(
+                getModItem(ExtraUtilities.ID, "unstableingot", 1, 0),
+                new Object[] { getModItem(Minecraft.ID, "iron_ingot", 1, 0) },
+                new Object[] { getModItem(ExtraUtilities.ID, "divisionSigil", 1, 0) },
+                new Object[] { getModItem(Minecraft.ID, "diamond", 1, 0) });
         removeRecipeShapedDelayed(
                 getModItem(ForbiddenMagic.ID, "FMResource", 9, 0),
                 new Object[] { getModItem(Minecraft.ID, "emerald", 1, 0) },
