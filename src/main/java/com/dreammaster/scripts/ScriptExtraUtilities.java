@@ -896,7 +896,6 @@ public class ScriptExtraUtilities implements IScriptLoader {
                 null,
                 getModItem(RandomThings.ID, "ingredient", 1, 1),
                 null);
-        
         addShapedRecipe(
                 getModItem(ExtraUtilities.ID, "unstableingot", 1, 0),
                 getModItem(Minecraft.ID, "iron_ingot", 1, 0),
@@ -909,7 +908,6 @@ public class ScriptExtraUtilities implements IScriptLoader {
                 getModItem(Minecraft.ID, "diamond", 1, 0),
                 null,
                 null);
-
         addShapedRecipe(
                 getModItem(ExtraUtilities.ID, "unstableingot", 1, 2),
                 getModItem(Minecraft.ID, "iron_ingot", 1, 0),
