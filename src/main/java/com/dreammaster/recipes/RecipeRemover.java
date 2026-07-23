@@ -7,7 +7,7 @@ import static gregtech.api.enums.Mods.AdvancedSolarPanel;
 import static gregtech.api.enums.Mods.AkashicTome;
 import static gregtech.api.enums.Mods.Automagy;
 import static gregtech.api.enums.Mods.Avaritia;
-import static gregtech.api.enums.Mods.Backpack;Minecraft Forge MDK
+import static gregtech.api.enums.Mods.Backpack;
 import static gregtech.api.enums.Mods.BetterBuildersWands;
 import static gregtech.api.enums.Mods.BinnieCore;
 import static gregtech.api.enums.Mods.BiomesOPlenty;
